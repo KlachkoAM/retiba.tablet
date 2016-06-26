@@ -1,0 +1,409 @@
+html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    height: 100%;
+    font-size: 14px;
+}
+
+body {
+
+    height: auto;
+    /*max-width: 825px;*/
+    width: 825px;
+   /* width: 100%;*/
+    font: 14px/18px 'Times New Roman', Times, sans-serif;
+    background-color: #FFF;
+/*    border: 1px dashed navy;*/
+}
+
+ol, ul {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-left {
+    text-align: left
+}
+
+.container {
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#wrapper {
+    width: 100%;
+    background: url("../img/wraper-bg.png") center top;
+}
+
+#header {
+    height: 105px;
+/*    border: 1px dashed red;*/
+    background: url("../img/header-bg.png") center top;
+   /* box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.16);*/
+}
+
+#header li {
+    float: left;
+  /*  border: 1px dashed darkgreen;*/
+}
+
+#header-logo li:first-child {
+    margin-left: 4.6060606060606060606060606060606%;
+    margin-top: 10px;
+}
+
+#header-logo li:nth-child(2) {
+    font: 13px "Book Antiqua", sans-serif;
+    color: #0188c0;
+    padding-left: 1.6969696969696969696969696969697%;
+    padding-right: 9.9393939393939393939393939393939%;
+    margin-top: 41px;
+}
+
+#header-logo li:nth-child(2) span {
+    color: #29ade6;
+}
+
+#header-logo li:nth-child(2) a {
+    display: block;
+}
+
+#header-btn li {
+    margin-top: 21px;
+    padding-right: 2.5454545454545454545454545454545%;
+}
+
+#header-btn li:last-child {
+    margin-top: 21px;
+  /*  border: 1px dashed black;*/
+    padding-right: 0px;
+/*    padding-right: 7.3939393939393939393939393939394%;*/
+}
+
+#slaider {
+    height: 435px;
+    background: url("../img/women.png") center top;
+  /*  border: 1px dashed red;*/
+}
+
+#slaider-title {
+    font: 25px "Book Antiqua", sans-serif;
+    color: #009ddc;
+    margin-top: 39px;
+    margin-left: 4.8484848484848484848484848484848%;
+    /*border: 1px dashed darkgreen;*/
+}
+
+#slaider-text {
+    font: 10px "Book Antiqua", sans-serif;
+    color: #009ddc;
+    margin-top: 20px;
+    margin-left: 8%;
+    text-decoration: underline;
+    list-style-type: circle;
+}
+
+#slaider-text li {
+    padding-bottom: 23px;
+}
+
+#slaider-text li:last-child {
+    padding-bottom: 7px;
+}
+
+#slaider-btn {
+    margin-top: 10px;
+    margin-left: 47.757575757575757575757575757576%;
+    padding-bottom: 10px;
+/*    border: 1px dashed darkblue;*/
+}
+
+#slaider-call {
+    height: 74px;
+    background: url("../img/slaider-call.png") center top;
+}
+
+#slaider-call li {
+    float: left;
+    height: 74px;
+  /*  border-right: 2px dashed darkblue;*/
+    padding-top: 27px;
+    width: 50%;
+
+}
+
+#slaider-call li a {
+    margin-left: 42.352941176470588235294117647059%;
+    /*padding-top: 31px;*/
+    font: bold 17px "Myriad Pro", sans-serif;
+    color: #ffffff;
+}
+
+#slaider-call li:first-child {
+    background: url("../img/slaider-pencil.png") no-repeat 27.4% 50%;
+ /*   border: 1px dashed darkblue;*/
+}
+
+#slaider-call li:last-child {
+    background: url("../img/slaider-question.png") no-repeat 27.4% 50%;
+}
+
+#content {
+    height: auto;
+   /* border: 1px dashed red;*/
+    padding-top: 20px;
+    padding-bottom: 135px;
+    padding-right: 6.4242424242424242424242424242424%;
+    padding-left: 6.4242424242424242424242424242424%;
+    font: 14px Cambria, sans-serif;
+    color: #6d6e71;
+}
+
+#content a {
+    font: 14px Cambria, sans-serif;
+    color: #42abcb;
+}
+
+.content-title {
+    text-align: center;
+    margin-bottom: 7px;
+    font-size: 25px;
+    color: #5898c2;
+}
+
+.content-text p {
+    margin-top: 10px;
+}
+
+.content-title-min {
+    text-align: center;
+    margin-bottom: 7px;
+    font-size: 18px;
+    color: #5898c2;
+}
+
+.content-title-video img {
+    margin-left: 12.848484848484848484848484848485%;
+}
+
+.content-title-video {
+
+    padding-bottom: 32px;
+    padding-top: 15px;
+}
+
+.content-text-point {
+    float: left;
+    margin-left: 11px;
+    margin-top: 5px;
+    margin-right: 9px;
+}
+
+.content-text-list {
+    list-style-type: circle;
+    padding-left: 3.1515151515151515151515151515152%;
+}
+
+.content-kind-ill-wrapper {
+    margin-top: 20px;
+}
+
+.content-kind-ill-grid > li {
+    border-top: 2px solid #0188C0;
+    height: 228px;
+    margin-left: 7.3939393939393939393939393939394%;
+    margin-right: 7.3939393939393939393939393939394%
+}
+
+.content-kind-ill-grid > li:last-child {
+    border-bottom: 2px solid #0188C0;
+}
+
+.content-kind-ill-grid li > div {
+    float: left;
+}
+
+.content-kind-ill-text {
+    width: 49.07272727272727272727272727273%;
+    padding-top: 9px;
+    margin-left: 2.7878787878787878787878787878788%;
+}
+
+.content-kind-ill-text > span {
+    font-size: 15px;
+    color: #42abcb;
+}
+
+.content-kind-ill-text > p {
+    padding-top: 12px;
+}
+
+.content-kind-ill1 {
+    padding-top: 14px;
+}
+
+.content-k-i-t-link > span {
+    font-size: 15px;
+}
+
+.content-kind-ill1 {
+    border-top: 2px solid #0188C0;
+}
+
+#content-doctors {
+    clear: both;
+    padding-top: 20px;
+}
+
+#footer {
+  /*  height: 310px;*/
+   /* padding-bottom: 33px;*/
+    height: auto;
+   /* border: 1px dashed red;*/
+    background: url("../img/footer-bg.png") /*no-repeat*/ center top;
+}
+
+#footer-grid > li {
+    float: left;
+    margin-top: 54px;
+  /*  border: 1px dashed firebrick;*/
+}
+
+#footer-grid > li:first-child {
+    margin-left: 9.4545454545454545454545454545455%;
+    width: 25.530303030303030303030303030303%;
+}
+
+#footer-grid > li:nth-child(2) {
+    width: 27.830303030303030303030303030303%;
+    margin-left: 10.166666666666666666666666666667%;
+
+}
+
+#footer-grid > li:last-child {
+    margin-left: 8.4848484848484848484848484848485%;
+    width: 17.045454545454545454545454545455%;
+}
+
+#footer-social-net li {
+    padding-bottom: 9px;
+}
+
+.footer-item-tablet li, a {
+    color: #54a8bf;
+    /*font: 13px Arial, sans-serif;*/
+    font: 0.9285rem Arial, sans-serif;
+}
+
+.footer-item-tablet > li:first-child {
+    /*font: 18px Cambria, sans-serif;*/
+    font: 1.2857rem Cambria, sans-serif;
+    margin-left: 1.36363636363636363636363636363636%;
+}
+
+.footer-item-tablet ol {
+    list-style-type: square;
+}
+
+.footer-item-tablet ol > li {
+    padding-bottom: 11px;
+}
+
+.footer-item-tablet > li:last-child {
+    margin-top: 10px;
+    margin-left: 5.0178571428571428571428571428571%
+}
+
+#footer-sozdateli {
+    height: 75px;
+  /*  border: 1px dashed red;*/
+    background: url("../img/footer-sozd-bg.png") no-repeat center top;
+}
+
+#footer-sozdateli li {
+    float: left;
+}
+
+#footer-sozdateli li:first-child {
+    margin-top: 28px;
+    margin-left: 11.636363636363636363636363636364%;
+    text-align: center;
+    /*font: 12px "Book Antiqua", sans-serif;*/
+    font: 0.8571rem "Book Antiqua", sans-serif;
+    color: #6d6e71;
+    padding-right: 53.939393939393939393939393939394%;
+}
+
+#footer-sozdateli li:last-child {
+    margin-top: 34px;
+    /*font: 13px "Book Antiqua", sans-serif;*/
+    font: 0.9285rem "Book Antiqua", sans-serif;
+    color: #6d6e71;
+}
+
+#footer-sozdateli li:last-child a {
+    font: 0.9285rem "Book Antiqua", sans-serif;
+    color: #6d6e71;
+
+}
